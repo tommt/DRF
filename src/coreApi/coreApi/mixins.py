@@ -6,4 +6,7 @@ class JsonResponseMixin(object):
         return JsonResponse(self.get_data(context), **response_kwargs)
     
     def get_data(self, context):
-        return context
+        return context 
+
+
+
